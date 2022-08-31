@@ -1,3 +1,5 @@
+//? Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
+
 const convertTemp = (temp, type) => {
   if (type == "celsius") {
     return ((9 * temp + 32 * 5) / 5).toFixed(1) + " F";
