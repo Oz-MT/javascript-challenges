@@ -4,7 +4,7 @@
 //? Example2:
 //? input = Saturday⇒ output: Saturday is not a weekday
 
-const day = prompt("Enter a day").toLowerCase();
+const day = prompt("Enter a day").toLowerCase().trim();
 const weekday = ["monday", "tuesday", "wednesday", "thursday", "friday"];
 const weekend = ["sunday", "monday"];
 
