@@ -7,4 +7,6 @@ if (Math.abs(100 - num1) < Math.abs(100 - num2)) {
   console.log(`The number ${num1} is closer to 100 according to ${num2}`);
 } else if (Math.abs(100 - num2) < Math.abs(100 - num1)) {
   console.log(`The number ${num2} is closer to 100 according to ${num1}`);
+} else {
+  console.log("Something went wrong");
 }

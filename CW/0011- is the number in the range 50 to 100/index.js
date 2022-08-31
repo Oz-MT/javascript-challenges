@@ -6,4 +6,6 @@ if (num > 50 && num < 100) {
   console.log(true);
 } else {
   console.log(false);
+} else{
+  console.log("Something went wrong");
 }
