@@ -2,17 +2,16 @@
 //? Example:
 //? str = “Clarusway”         char = “a”       ===> result = 2      as “a” occurs 2 times in Clarusway
 let count = 0;
-const charCount = (string, char) => {
-  const arr = String(string).split("");
-  if (arr.includes(char)) {
-    for (let i = 0; i < arr.length; i++) {
-      if (arr[i] == char) {
+const charCount = (str, char) => {
+  if (str.includes(char)) {
+    for (let i = 0; i < str.length; i++) {
+      if (str[i] == char) {
         count++;
       }
     }
     return count;
   } else {
-    return `There is no ${char} char in ${string}`;
+    return `There is no ${char} char in ${str}`;
   }
 };
 
